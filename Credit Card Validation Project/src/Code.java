@@ -4,7 +4,7 @@ import java.io.IOException;
 
 public class Code
 	{
-		
+		//practice branch edit
 		static long [] cardFile = new long [16];
 		static long ccNumber, displayNumber;
 		static int counter = 0;
@@ -12,7 +12,7 @@ public class Code
 		public static void main(String[] args) throws IOException
 			{
 				
-				Scanner myFile = new Scanner(new File("creditCardNumbers.txt"));
+				Scanner myFile = new Scanner(new File("secondCheckNumbers.txt"));
 				
 				while(myFile.hasNext())
 					{
